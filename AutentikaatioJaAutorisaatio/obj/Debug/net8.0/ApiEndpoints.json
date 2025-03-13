@@ -1,0 +1,68 @@
+[
+  {
+    "ContainingType": "AutentikaatioJaAutorisaatio.Controllers.WeatherForecastController",
+    "Method": "Get2",
+    "RelativePath": "WeatherForecast/AuthGet",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[AutentikaatioJaAutorisaatio.WeatherForecast, AutentikaatioJaAutorisaatio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AutentikaatioJaAutorisaatio.Controllers.WeatherForecastController",
+    "Method": "GetSecretData",
+    "RelativePath": "WeatherForecast/GetSecret",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AutentikaatioJaAutorisaatio.Controllers.WeatherForecastController",
+    "Method": "Login",
+    "RelativePath": "WeatherForecast/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "credentials",
+        "Type": "AutentikaatioJaAutorisaatio.Services.UserCredentials",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AutentikaatioJaAutorisaatio.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast/OpenGet",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[AutentikaatioJaAutorisaatio.WeatherForecast, AutentikaatioJaAutorisaatio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
